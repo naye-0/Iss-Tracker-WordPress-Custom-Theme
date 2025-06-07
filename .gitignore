@@ -8,8 +8,6 @@
 /wp-admin/
 /wp-content/index.php
 /wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
 /wp-includes/
 /index.php
 /license.txt
@@ -19,9 +17,6 @@
 
 # Configuration
 wp-config.php
-
-# Example themes
-/wp-content/themes/twenty*/
 
 # Example plugin
 /wp-content/plugins/hello.php
@@ -46,3 +41,59 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# macOS metadata files
+*.com.apple.timemachine.donotpresent
+.com.apple.timemachine.donotpresent
+
+# macOS tags
+*.AppleDouble
+
+# VS Code settings
+.vscode/
+
+# Node.js
+node_modules/
+
+# Logs
+*.log
+
+# OS generated files
+ehthumbs.db
+Thumbs.db
+
+# IDEs/editors
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.*
+
+# Build artifacts
+dist/
+build/
+*.o
+*.out
+*.class
+
+# Package managers
+package-lock.json
+yarn.lock

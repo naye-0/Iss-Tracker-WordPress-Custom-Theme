@@ -1,0 +1,20 @@
+/*
+ Theme Name:     Twenty Twenty-Two Child
+ Theme URI:      https://example.com/twentytwentytwo-child
+ Description:    Child Theme für das Twenty Twenty-Two-Theme
+ Author:         Dein Name
+ Author URI:     https://example.com
+ Template:       twentytwentytwo
+ Version:        1.0.0
+ Text Domain:    twentytwentytwo-child
+*/
+
+/* Füge hier deine eigenen CSS-Anpassungen ein */
+
+#issMap {
+    width: 100%; /* Sets the element's width to 100% of its parent container */
+    height: 500px; /* Fixes the element's height to 500 pixels */
+    margin: 20px 0; /* Adds 20px of vertical spacing above and below the element, no horizontal spacing */
+    border: 2px solid #ddd; /* Adds a 2px solid border with a light gray color (#ddd) */
+    border-radius: 8px; /* Rounds the corners of the element with an 8px radius */
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "key": "group_678e947db82bf",
+        "title": "OpenStreetMap",
+        "fields": [
+            {
+                "key": "field_678e947d5afe4",
+                "label": "OpenStreetMap",
+                "name": "openstreetmap",
+                "aria-label": "",
+                "type": "open_street_map",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": 53.55064,
+                "center_lng": 10.00065,
+                "zoom": 12,
+                "height": 400,
+                "return_format": "raw",
+                "allow_map_layers": 1,
+                "max_markers": "",
+                "layers": [
+                    "OpenStreetMap.Mapnik"
+                ],
+                "allow_in_bindings": 0,
+                "leaflet_map": "{\"lat\":53.55064,\"lng\":10.00065,\"zoom\":12,\"layers\":[\"OpenStreetMap.Mapnik\"],\"markers\":[]}"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                },
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "default"
+                }
+            ],
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "13"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
