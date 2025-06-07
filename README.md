@@ -54,3 +54,9 @@ git clone git@github.com:naye-0/Iss-Tracker-WordPress-Custom-Theme.git
 
 6. **View the ISS map**  
    Visit the page where the map is embedded and watch the ISS move across the globe in real time!
+
+## 📷 Screenshot
+
+> The current position of the ISS over Earth 🌍
+
+![ISS Tracker Screenshot](./Screenshot.png)
